@@ -1,0 +1,15 @@
+MINIASSIST 1.4.1 — СНАЧАЛА ПРОЧИТАЙ
+
+1) Распакуй ZIP.
+2) Загрузи ВСЁ содержимое архива в корень нового GitHub-репозитория.
+   В корне должны быть build.gradle, gradle.properties, settings.gradle, src/ и .github/workflows/build.yml.
+   Не загружай сам ZIP как один файл и не прячь проект во вложенную папку.
+3) Сделай Commit / Push. Workflow запускается при любом push.
+4) Открой вкладку Actions и выбери запуск MiniAssist Build.
+5) Если сборка зелёная: скачай Artifacts → MiniAssist-1.4.1. Распакуй artifact ZIP и возьми zenith-client-1.4.1.jar.
+6) Если сборка красная: открой Artifacts и скачай MiniAssist-build-log, если этот диагностический artifact появился. В нём лог компиляции Gradle.
+
+Minecraft: 1.21.4
+Java: 21
+Gradle: 8.12 (устанавливается workflow автоматически)
+Fabric Loom: 1.10.5
